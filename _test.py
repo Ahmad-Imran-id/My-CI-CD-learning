@@ -16,10 +16,10 @@ def test_cube():
     assert cube(2)==8,'test failed cube of 2 should be 9'
     assert cube(3)==27,'test fialed cube of 3 should be 27'
 
-def test_square():
+def test_fifth_power():
     assert fifith_power(2)==32,'test failed fifith_power of 2 should be 32'
     assert fifith_power(3)==243,'test fialed fifith_power of 3 should be 243'
 
-def text_input_test():
+def test_input_test():
     with pytest.raises(TypeError):
         square('string')
